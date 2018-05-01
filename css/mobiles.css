@@ -1,0 +1,103 @@
+@media only screen and (max-width: 400px) {
+    .main .header {
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 165%;
+        margin-top: -9%;
+    }
+    .main .header .header-title {
+        display: none;
+        margin-top: 7%;
+    }
+    .main .header .header-sobTexe{
+        display: none;
+    } 
+    .main .header .header-subText {
+        display: none;
+    }
+    .content .content-title {
+        margin-top: 7%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .content .content-text {
+        margin-top: 13%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    .content .content-img1 {
+        width: 70%;
+        height: 40%;
+        margin-top: 25%;
+        margin-left: 6%;
+        background-position: center;
+        background-size: 195%;
+        background-image: url("../img/img2.jpeg");
+    }
+    .content .content-img2 {
+        width: 70%;
+        height: 40%;
+        margin-top: -80%;
+        margin-left: 25%;
+        background-position: center;
+        background-size: 230%;
+        background-image: url("../img/img1.jpeg");
+    }
+    .divisa {
+        height: 7%;
+        background-position: center;
+        background-size: 100%;
+        margin-top: 35%;
+        display: none;
+    }
+    .content .content-bio-title {
+        margin-top: 35%;
+    }
+    footer {
+        margin-top: 125%;
+        
+    }
+    #placa-content {
+        width: 25%;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+    .content .content-title{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 18pt;
+    }
+    .content .content-text{
+        margin-left: 25%;
+        margin-top: -7%;
+        width: 40%;
+    }
+    .content .content-img1{
+        height: 200px;
+        margin-top: 5%;
+    }
+    .content .content-img2{
+        height: 300px;
+        margin-top: -56%;
+    }
+    #placa-content{
+        width: 20%;
+    }
+    footer{
+        margin-top: 25%;
+    }
+
+
+    .main .header .header-title {
+        display: none;
+        margin-top: 7%;
+    }
+    .main .header .header-sobTexe{
+        display: none;
+    } 
+    .main .header .header-subText {
+        display: none;
+    }
+}

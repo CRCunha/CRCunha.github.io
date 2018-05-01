@@ -1,0 +1,98 @@
+body {
+    margin: 0%;
+}
+
+.main .header {
+    background-image: url("../img/header-background.jpeg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.content .content-bio-title {
+    margin-top: 15%;
+}
+
+.content {
+    height: 1220px;
+    max-height: 720px;
+}
+
+.content .content-img1 {
+    width: 50%;
+    height: 70%;
+    background-image: url("../img/img1.jpeg");
+    background-size: 130vh;
+    margin-left: 12%;
+    margin-top: 3%;
+    transition: .7s;
+}
+
+.content .content-img1:hover {
+    background-size: 135vh;
+    transition: .7s;
+}
+
+#placa-content {
+    margin-top: 7%;
+}
+
+.content .content-img2 {
+    width: 20%;
+    height: 139vh;
+    background-image: url("../img/img2.jpeg");
+    background-size: 159vh;
+    background-position: center;
+    margin-left: 67%;
+    margin-top: -55%;
+    max-height: 103.5%;
+    transition: .7s;
+}
+
+.content .content-img2:hover {
+    background-size: 170vh;
+    transition: .7s;
+}
+
+#placa-content {
+    width: 7%;
+}
+
+.divisa {
+    width: 100%;
+    height: 110px;
+    background-image: url("../img/header-background2.jpeg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.divisa #folha {
+    margin-top: 1.5%;
+    margin-left: 48%;
+    width: 5%;
+}
+
+footer {
+    margin-top: 60%;
+    height: 90px;
+    background-image: url("../img/header-background2.jpeg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.reservas {
+    margin-left: 95%;
+    margin-top: 1.3%;
+    position: fixed;
+}
+
+.reservas img {
+    width: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
