@@ -15,6 +15,32 @@
         font-size: 20pt;
 
         margin-top: 10%;
-        margin-bottom: 7%;
+        margin-bottom: 10%;
+    }
+    /* CARDS */
+    main .cards .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main .cards .container .card1{ /*CARD1*/
+        width: 70%;
+        margin-bottom: 20%;
+    }
+    main .cards .container .card2{ /*CARD2*/
+        width: 70%;
+        margin-bottom: 20%;
+    }
+    main .cards .container .card3{ /*CARD3*/
+        width: 70%;
+        margin-bottom: 20%;
+    }
+    /*BIO*/
+    main .bio .bioTitle{
+        margin-top: 105%;
+        margin-bottom: 20%;
+    }
+    main .bio .bioText .container{
+        margin-bottom: 20%;
     }
 }
