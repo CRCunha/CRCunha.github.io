@@ -1,7 +1,7 @@
 @media only screen and (max-width: 400px){
     /*-------------- HEADER --------------*/
     header .headerTop .container img{
-        width: 10%;
+        width: 15%;
         float: left;
         min-width: 10%;
     }
@@ -12,10 +12,16 @@
 
         background-size: cover;
     }
-    
+    .mainIMG .container img{
+        margin-top: 10%;
+    }
+    .mainImgTitle{
+        margin-top: 15%;
+        font-size: 20pt;
+    }
     /*-------------- MAIN --------------*/
     main .jobs{
-        font-size: 20pt;
+        font-size: 35pt;
 
         margin-top: 15%;
         margin-bottom: 10%;
@@ -57,9 +63,31 @@
         display: flex;
         justify-content: center;
         align-items: center;
-}
+    }
     main .video .container video{
         width: 80%;
         height: 100%;
+    }
+
+    .mainIMG{
+        width: 100%;
+        
+    }
+    .mainIMG .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    .mainIMG .container img{
+        width: 90%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+    /*-------------- FOOTER --------------*/
+    footer{
+        height: 50px;
     }
 }
