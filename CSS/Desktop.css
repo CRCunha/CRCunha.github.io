@@ -67,20 +67,37 @@ main .cards .container .card1{  /* CARD1 */
     width: 25%;
     height: 250px;
 
-
     background-color: #3f3f3f;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main .cards .container .card2{  /* CARD2 */
     width: 25%;
     height: 250px;
 
     background-color: #3f3f3f;
+
+    color: #fff;
+    font-size: 20pt;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main .cards .container .card3{  /* CARD3 */
     width: 25%;
     height: 250px;
 
     background-color: #3f3f3f;
+
+    color: #fff;
+    font-size: 20pt;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*BIO*/
 main .bio .bioTitle{
@@ -157,6 +174,31 @@ main .video .container video{
     font-size: 25pt;
 }
 
+.card1 a{
+    color: #fff;
+    font-size: 18pt;
+
+    text-decoration: none;
+}
+.card2 a{
+    color: #fff;
+    font-size: 18pt;
+
+    text-decoration: none;
+}
+.card3 a{
+    color: #fff;
+    font-size: 18pt;
+
+    text-decoration: none;
+}
+
+#img1{
+    width: 70%;
+}
+#img2{
+    width: 45%;
+}
 /*-------------- FOOTER --------------*/
 footer{
     width: 100%;
