@@ -46,7 +46,7 @@ main .jobs{
     font-size: 30pt;
     color: rgb(126, 126, 126);
 
-    margin-top: 7%;
+    margin-top: 0%;
     margin-bottom: 7%;
 }
 /* CARDS */
@@ -106,10 +106,11 @@ main .bio .bioTitle{
     font-size: 30pt;
     color: rgb(126, 126, 126);
 
-    margin-top: 0%;
-    margin-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 main .bio .bioText{
+
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 30pt;
@@ -127,52 +128,48 @@ main .bio .bioText .container{
 
     width: 80%;
 }
-/*VIDEO*/
-main .video .container{
+/*Habilidades*/
+.habilidades{
     width: 100%;
-    height: 300px;
-
-    margin-bottom: 7%;
+    height: 70vh;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main .video .container video{
-    width: 80%;
-    height: 100%;
-}
-
-.mainIMG{
-    width: 100%;
-    
-}
-.mainIMG .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-around;
-
-    margin-top: 15%;
-    margin-bottom: 7%;
+    align-content: center;
+    flex-wrap: wrap;
 }
-.mainIMG .container img{
-    margin-top: -4%;
-
-    width: 60%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-.mainImgTitle{
-    width: 100%;
-
-    margin-top: 10%;
+.habilidades-title{
+    width: 100%; 
 
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 30pt;
     color: rgb(126, 126, 126);
-    font-size: 25pt;
+
+    margin-top: -5%;
+    margin-bottom: 5%;
 }
+.habilidades-icons{
+
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.habilidades-icons i{
+    font-size: 100pt;
+    margin: 30px;
+
+    color: rgb(126, 126, 126);
+}
+.habilidades-icons i:hover{
+    color: #3f3f3f;
+}
+
+
 
 .card1 a{
     color: #fff;
@@ -199,18 +196,23 @@ main .video .container video{
 #img2{
     width: 45%;
 }
+#img3{
+    width: 45%;
+}
 /*-------------- FOOTER --------------*/
 footer{
     width: 100%;
     height: 70px;
 
     background-color: #3f3f3f;
+
+    margin-top: 10%;
 }
 
 
-@media (max-width: 1920px){
+@media (max-width: 2500px){
     header .headerTop .container img{
-        width: 6%;
+        width: 5%;
     }
 }
 

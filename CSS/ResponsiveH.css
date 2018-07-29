@@ -12,10 +12,10 @@
 
     /*-------------- MAIN --------------*/
     main .jobs{
-        font-size: 20pt;
+        font-size: 30pt;
 
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: -8%;
+        margin-bottom: 15%;
     }
     /* CARDS */
     main .cards .container{
@@ -38,9 +38,10 @@
 
     /*BIO*/
     main .bio .bioTitle{
-        margin-top: 105%;
+        margin-top: 15%;
         margin-bottom: 20%;
     }
+
     main .bio .bioText .container{
         margin-bottom: 20%;
     }
@@ -67,8 +68,27 @@
         margin-top: 5%;
         font-size: 20pt;
     }
+
+    #img1{
+        width: 90%;
+    }
+    #img2{
+        width: 90%;
+    }
+    #img3{
+        width: 90%;
+    }
+
+    /*Habilidades*/
+    .habilidades-title{
+        margin-top: 190%;
+    }
+    .habilidades-icons i{
+        font-size: 50pt;
+    }
     /*-------------- FOOTER --------------*/
     footer{
+        margin-top: 130%;
         height: 70px;
     }
 }
