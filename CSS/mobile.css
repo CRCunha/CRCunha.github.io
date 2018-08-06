@@ -108,3 +108,68 @@
     }
 
 }
+
+
+@media only screen and (max-width: 800px) and (orientation: landscape){
+    header {
+        height: 200vh;
+    }
+    .header-content{
+        width: 85%;
+        height: 80%;
+    }    
+
+    .main-left{
+        width: 100%;
+    }
+    .main-right{
+
+        margin-top: 70%;
+
+        width: 100%;
+    }
+    .main-btn{
+        padding: 3% 3%;
+    }
+    .contato{
+        height: 100vh;
+        margin-top: 150%;
+    }
+    input[type=submit]{
+        width: 60%;
+    }
+    footer{
+        width: 100%;
+        height: 20vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container{
+        width: 25%;
+    }
+    .email{
+        margin-top: 2%;
+        width: 100%;
+        height: 10vh;
+    }
+    .tecnologias{
+        font-size: 50pt;
+        margin-bottom: -35%;
+    }
+
+    .linha1{
+        margin-top: 5%;
+    }
+    .linha2{
+        margin-top: 5%;
+    }
+    .linha3{
+        margin-top: 5%;
+        margin-bottom: -10%;
+    }
+    .main-title-r{
+        margin-top: -15%;
+    }
+}
