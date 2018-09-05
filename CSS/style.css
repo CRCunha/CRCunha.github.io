@@ -36,7 +36,7 @@ header{
             animation: fadein 2s;
 }
 .name{
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-family: 'Archivo Black', sans-serif;
     font-size: 40pt;
 
@@ -49,7 +49,7 @@ header{
     width: 85%;
     height: 20%;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-size: 12pt;
     font-family: 'Didact Gothic', sans-serif;
 
@@ -61,7 +61,7 @@ header{
 
     background-color: rgb(223, 94, 94);
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-size: 12pt;
     font-family: 'Didact Gothic', sans-serif;
 
@@ -110,7 +110,7 @@ main{
 .main-title{
     width: 90%;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-family: 'Didact Gothic', sans-serif;
     font-size: 40pt;
 
@@ -123,7 +123,7 @@ main{
 
     width: 90%;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-family: 'Didact Gothic', sans-serif;
     font-size: 13pt;
     
@@ -146,7 +146,7 @@ main{
 }
 .main-btn a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(230, 230, 230);
 }
 /* MAIN RIGHT */
 .main-right{
@@ -161,7 +161,7 @@ main{
 .main-title-r{
     width: 90%;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-family: 'Didact Gothic', sans-serif;
     font-size: 35pt;
 
@@ -178,8 +178,8 @@ main{
     align-items: center;
     flex-wrap: wrap;
 
-    color: #fff;
-    font-size: 80pt;
+    color: rgb(230, 230, 230);
+    font-size: 55pt;
 }
 .linha1{
     margin-top: 10%;
@@ -247,9 +247,7 @@ form{
     flex-wrap: wrap;
 
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
-
-    
+    color: rgb(230, 230, 230);
 }
 .form-container{
     width: 70%;
@@ -259,11 +257,11 @@ input[type=text]{
     height: 30px;
 
     border: none;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px rgb(230, 230, 230);
 
     outline:none;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
 
     transition: .5s;
 
@@ -286,7 +284,7 @@ input[type=submit]{
     padding-top: 5%;
     padding-bottom: 5%;
 
-    color: #fff;
+    color: rgb(230, 230, 230);
     font-family: 'Montserrat', sans-serif;
     font-size: 12pt;
 
@@ -314,7 +312,7 @@ footer{
 }
 .footer-container a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(230, 230, 230);
 }
 .email{
     width: 100%;
