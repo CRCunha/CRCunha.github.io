@@ -1,0 +1,34 @@
+.tecnologias{
+    width: 100%;
+    height: 300px;
+}
+
+.tecnologias .container{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tec-cards{
+    width: 80%;
+    height: 100%;   
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tec-card{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tec-card i{
+    font-size: 50pt;
+    color: #858585;
+}

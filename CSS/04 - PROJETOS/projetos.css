@@ -1,6 +1,6 @@
 .projetos{
     width: 100%;
-    height: 1000px;
+    height: 1100px;
 
     background-color: rgb(250, 250, 250);
 }
@@ -9,7 +9,7 @@
     margin-top: 25px;
 
     width: 100%;
-    height: 900px;
+    height: 950px;
 
     display: flex;
     justify-content: center;
@@ -28,6 +28,8 @@
 
     background-color: #fff;
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+
+    margin-bottom: 50px;
 }
 .card .card-left{
     width: 30%;
@@ -79,18 +81,17 @@
 
 /* --- CARDS --- */
 #card1 .card-left{
-    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
+    background-image: url("../../IMG/04 - PROJETOS/card1.PNG");
     background-position: center;
     background-size: cover;
 }
 #card2 .card-left{
-    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
-    background-position-x: center;
-    background-position-y: 0%;
+    background-image: url("../../IMG/04 - PROJETOS/card2.PNG");
+    background-position: center;
     background-size: cover;
 }
 #card3 .card-left{
-    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
-    background-position-x: 0%;
+    background-image: url("../../IMG/04 - PROJETOS/card3.PNG");
+    background-position: center;
     background-size: cover;
 }
