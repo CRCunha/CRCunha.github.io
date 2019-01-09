@@ -1,0 +1,96 @@
+.projetos{
+    width: 100%;
+    height: 1000px;
+
+    background-color: rgb(250, 250, 250);
+}
+
+.cards{
+    margin-top: 25px;
+
+    width: 100%;
+    height: 900px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 80%;
+    height: 260px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.card .card-left{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-right .titleCard{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -60px;
+
+    font-size: 15pt;
+    color: black;
+
+    width: 100%;
+    height: 10px;
+}
+
+.card .card-right{
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3f3f3f;
+}
+.card .card-right .link{
+    margin-top: -30px;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.card .card-right .link a{
+    text-decoration: none;
+    color: #427bf8;
+}
+
+
+
+
+/* --- CARDS --- */
+#card1 .card-left{
+    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
+    background-position: center;
+    background-size: cover;
+}
+#card2 .card-left{
+    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
+    background-position-x: center;
+    background-position-y: 0%;
+    background-size: cover;
+}
+#card3 .card-left{
+    background-image: url("../../IMG/04 - PROJETOS/card.PNG");
+    background-position-x: 0%;
+    background-size: cover;
+}

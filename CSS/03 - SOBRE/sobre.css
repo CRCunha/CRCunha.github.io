@@ -1,0 +1,78 @@
+.sobre{
+    width: 100%;
+    height: 500px;
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-family: 'Thasadith', sans-serif;
+    color: #3f3f3f;
+    font-size: 25pt;
+}
+.sobre-container{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.sobre-left{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sobre-left .avatar{
+    width: 180px;
+    height: 180px;
+
+    border-radius: 100%;
+
+    background-image: url("../../IMG/OTHERS/foto.jpg");
+    background-position-x: 40%;
+    background-size: cover;
+
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+.sobre-right{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sobre-right .sobre-texto{
+    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3f3f3f;
+}
+
+.medias{
+    width: 100%;
+    height: 30px;
+}
+.medias #img1{
+    width: 32px;
+}
+.medias #img2{
+    width: 32px;
+    margin-left: 10px;
+}
+.medias #img3{
+    width: 32px;
+    margin-left: 10px;
+}
