@@ -32,7 +32,7 @@
     margin-bottom: 50px;
 }
 .card .card-left{
-    width: 30%;
+    width: 35%;
     height: 100%;
 
     display: flex;
@@ -53,7 +53,7 @@
 }
 
 .card .card-right{
-    width: 65%;
+    width: 60%;
     height: 100%;
 
     display: flex;
