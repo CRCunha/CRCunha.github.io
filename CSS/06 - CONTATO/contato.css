@@ -72,13 +72,15 @@ form{
 .contato-form-btn input{
     cursor: pointer;
 
-    width: 120px;
+    width: 150px;
     height: 50px;
 
     border: none;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(236, 236, 236);
 
-    color: #fff;
+    color: #3f3f3f;
+
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
 
