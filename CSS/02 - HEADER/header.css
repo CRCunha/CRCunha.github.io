@@ -14,7 +14,6 @@
     color: #3f3f3f;
 }
 #header-text1{
-    margin-top: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +24,7 @@
     font-family: 'Staatliches', cursive;
 }
 #header-text2{
-    margin-top: -38%;
+    margin-top: -33%;
 
     display: flex;
     justify-content: center;
