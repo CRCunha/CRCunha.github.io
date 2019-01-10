@@ -3,7 +3,8 @@
     height: 600px;
 
     background-image: url("../../IMG/02 - HEADER/Background.jpg");
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 70%;
     background-size: cover;
 
     display: flex;
