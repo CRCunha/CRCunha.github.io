@@ -3,8 +3,7 @@
     height: 600px;
 
     background-image: url("../../IMG/02 - HEADER/Background.jpg");
-    background-position-x: center;
-    background-position-y: 100%;
+    background-position: center;
     background-size: cover;
 
     display: flex;
@@ -15,6 +14,7 @@
     color: #3f3f3f;
 }
 #header-text1{
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     font-family: 'Staatliches', cursive;
 }
 #header-text2{
-    margin-top: -33%;
+    margin-top: -38%;
 
     display: flex;
     justify-content: center;
