@@ -1,97 +1,89 @@
-.projetos{
+.projetos {
     width: 100%;
     height: 1200px;
-
     background-color: rgb(250, 250, 250);
 }
 
-.cards{
+.cards {
     margin-top: 25px;
-
     width: 100%;
     height: 1050px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     width: 80%;
     height: 260px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-
     background-color: #fff;
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
-
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 50px;
 }
-.card .card-left{
+
+.card .card-left {
     width: 35%;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card .card-right .titleCard{
+.card .card-right .titleCard {
     display: flex;
     justify-content: flex-start;
     margin-bottom: -60px;
-
     font-size: 15pt;
     color: black;
-
     width: 100%;
     height: 10px;
 }
 
-.card .card-right{
+.card .card-right {
     width: 60%;
     height: 100%;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-
     font-family: 'Source Sans Pro', sans-serif;
     color: #3f3f3f;
 }
-.card .card-right .link{
-    margin-top: -30px;
 
+.card .card-right .link {
+    margin-top: -30px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
 }
-.card .card-right .link a{
+
+.card .card-right .link a {
     text-decoration: none;
     color: #427bf8;
 }
 
 
-
-
 /* --- CARDS --- */
-#card1 .card-left{
+
+#card1 .card-left {
     background-image: url("../../IMG/04 - PROJETOS/card1.PNG");
     background-position: center;
     background-size: cover;
 }
-#card2 .card-left{
+
+#card2 .card-left {
     background-image: url("../../IMG/04 - PROJETOS/card2.png");
     background-position: center;
     background-size: cover;
 }
-#card3 .card-left{
-    background-image: url("../../IMG/04 - PROJETOS/card3.PNG");
+
+#card3 .card-left {
+    background-image: url("../../IMG/04 - PROJETOS/card3.png");
     background-position: center;
     background-size: cover;
 }
