@@ -1,101 +1,95 @@
-.contatos{
+.contatos {
     width: 100%;
     height: 500px;
-
     margin-bottom: 50px;
 }
 
-.contato-container{
+.contato-container {
     width: 100%;
     height: 300px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-form{
+
+form {
     width: 80%;
     height: 100%;
 }
-.contato-form-top{
+
+.contato-form-top {
     width: 100%;
     height: 100px;
-
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
-.contato-form-top input{
+
+.contato-form-top input {
     width: 40%;
     height: 40px;
-
     text-align: center;
-
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
     color: #3f3f3f;
-
     border: none;
     border-bottom: solid 2px #a0a0a0;
 }
-.contato-form-bot{
+
+.contato-form-bot {
     width: 100%;
     height: 150px;
-
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.contato-form-bot input{
+
+.contato-form-bot input {
     width: 90%;
     height: 40px;
-
     text-align: center;
-
     color: #3f3f3f;
-
     border: none;
     border-bottom: solid 2px #a0a0a0;
 }
-.contato-form-btn{
-    margin-top: 60px;
 
+.contato-form-btn {
+    margin-top: 60px;
     width: 100%;
     height: 100px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contato-form-btn input{
+
+.contato-form-btn input {
     cursor: pointer;
-
-    width: 150px;
-    height: 50px;
-
+    width: 200px;
+    height: 60px;
     border: none;
-    background-color: rgb(236, 236, 236);
-
+    background-color: rgb(241, 241, 241);
     color: #3f3f3f;
-
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    font-size: 14pt;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
 
 ::-webkit-input-placeholder {
     color: rgb(165, 165, 165);
- }
- 
- :-moz-placeholder { /* Firefox 18- */
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
     color: rgb(165, 165, 165);
- }
- 
- ::-moz-placeholder {  /* Firefox 19+ */
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
     color: rgb(165, 165, 165);
- }
- 
- :-ms-input-placeholder {  
+}
+
+ :-ms-input-placeholder {
     color: rgb(165, 165, 165);
- }
+}
