@@ -35,6 +35,7 @@ form {
     color: #3f3f3f;
     border: none;
     border-bottom: solid 2px #a0a0a0;
+    background-color: transparent;
 }
 
 .contato-form-bot {
@@ -52,6 +53,7 @@ form {
     color: #3f3f3f;
     border: none;
     border-bottom: solid 2px #a0a0a0;
+    background-color: transparent;
 }
 
 .contato-form-btn {
