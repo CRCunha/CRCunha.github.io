@@ -65,6 +65,7 @@
             text-align: center;
         }
         .card .card-right .titleCard {
+            margin-top: -35px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -94,6 +95,9 @@
         #card4 .card-left {
             background-size: cover;
             background-position: center;
+        }
+        .projetos {
+            height: 1900px;
         }
     }
     
